@@ -16,6 +16,5 @@ allprojects {
 }
 
 cdvPluginPostBuildExtras.add({
-    apply plugin: com.google.gms.googleservices.GoogleServicesPlugin
     apply plugin: com.google.firebase.crashlytics.buildtools.gradle.CrashlyticsPlugin
 })
